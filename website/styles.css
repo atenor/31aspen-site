@@ -246,6 +246,25 @@ h1 {
   padding: 1.2rem;
 }
 
+.about {
+  padding: 1.2rem;
+}
+
+.about-copy {
+  max-width: 860px;
+}
+
+.about-copy p {
+  margin: 0;
+  color: #485a51;
+  line-height: 1.74;
+  font-size: 0.98rem;
+}
+
+.about-copy p + p {
+  margin-top: 0.8rem;
+}
+
 .section-head {
   display: flex;
   justify-content: space-between;
