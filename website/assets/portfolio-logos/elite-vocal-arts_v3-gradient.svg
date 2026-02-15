@@ -1,0 +1,14 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="evaG" x1="52" y1="48" x2="250" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8C5F"/>
+      <stop offset="1" stop-color="#FFCA64"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="#FFF8F0"/>
+  <rect x="48" y="48" width="224" height="224" rx="46" fill="url(#evaG)"/>
+  <path d="M152 96C170 117 181 136 181 157C181 181 167 200 152 200C136 200 123 181 123 157C123 136 135 117 152 96Z" fill="#FFFFFF"/>
+  <rect x="146" y="200" width="12" height="30" rx="6" fill="#FFFFFF"/>
+  <text x="304" y="149" font-family="Sora, Manrope, Arial, sans-serif" font-size="70" font-weight="700" fill="#2E364B">Elite Vocal Arts</text>
+  <text x="304" y="198" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#666F88">Voice Craft for Elite Performers</text>
+</svg>

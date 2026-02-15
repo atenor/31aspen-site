@@ -1,0 +1,8 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#FCF6EC"/>
+  <circle cx="150" cy="160" r="100" fill="#9F6E2F"/>
+  <path d="M151 93C170 114 181 134 181 155C181 178 167 196 150 196C132 196 119 178 119 155C119 134 130 114 151 93Z" fill="#FCF6EC"/>
+  <path d="M151 196V225" stroke="#FCF6EC" stroke-width="7" stroke-linecap="round"/>
+  <text x="294" y="148" font-family="Fraunces, Georgia, serif" font-size="73" font-weight="600" fill="#5E3C17">Elite Vocal Arts</text>
+  <text x="294" y="196" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#8C6A46">Tradition, Technique, Artistry</text>
+</svg>

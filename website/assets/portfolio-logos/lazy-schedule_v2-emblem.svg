@@ -1,0 +1,9 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#F5F1FF"/>
+  <path d="M150 58L228 98V222L150 262L72 222V98L150 58Z" fill="#5A4BA6"/>
+  <path d="M112 159H188" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="130" cy="159" r="7" fill="#FFFFFF"/>
+  <circle cx="170" cy="159" r="7" fill="#FFFFFF"/>
+  <text x="294" y="148" font-family="Fraunces, Georgia, serif" font-size="73" font-weight="600" fill="#2F245F">Lazy Schedule</text>
+  <text x="294" y="197" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#6B6294">Time Architecture Made Simple</text>
+</svg>

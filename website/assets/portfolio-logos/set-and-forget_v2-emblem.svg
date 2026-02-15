@@ -1,0 +1,7 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#F2F7F1"/>
+  <circle cx="150" cy="160" r="100" fill="#5D8365"/>
+  <path d="M103 163L137 197L199 133" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="294" y="148" font-family="Fraunces, Georgia, serif" font-size="72" font-weight="600" fill="#2B4732">Set &amp; Forget</text>
+  <text x="294" y="197" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#6B7E6F">Set once. Show up always.</text>
+</svg>

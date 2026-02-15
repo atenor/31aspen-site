@@ -1,0 +1,9 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#FFFFFF"/>
+  <g transform="translate(48,60)">
+    <rect x="0" y="0" width="200" height="200" rx="24" fill="#0F2742"/>
+    <path d="M54 58H114C141 58 158 74 158 99C158 119 146 133 127 138L163 202H132L101 144H82V202H54V58ZM82 82V120H110C124 120 131 113 131 101C131 89 124 82 110 82H82Z" fill="#FFFFFF"/>
+  </g>
+  <text x="294" y="152" font-family="Manrope, Arial, sans-serif" font-size="78" font-weight="700" fill="#0F2742">Repertoire Pro</text>
+  <text x="297" y="198" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#5A6B81">Creative Workflow Platform</text>
+</svg>

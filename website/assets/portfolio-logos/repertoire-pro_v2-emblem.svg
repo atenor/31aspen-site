@@ -1,0 +1,8 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#F8F4ED"/>
+  <circle cx="150" cy="160" r="102" fill="#8D5A2B"/>
+  <circle cx="150" cy="160" r="78" fill="none" stroke="#F8F4ED" stroke-width="7"/>
+  <text x="122" y="179" font-family="Georgia, serif" font-size="54" font-weight="700" fill="#F8F4ED">RP</text>
+  <text x="294" y="150" font-family="Fraunces, Georgia, serif" font-size="76" font-weight="600" fill="#44260F">Repertoire Pro</text>
+  <text x="294" y="196" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#7E5D42">Signature Tools for Artists</text>
+</svg>

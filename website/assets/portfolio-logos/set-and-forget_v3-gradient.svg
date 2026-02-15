@@ -1,0 +1,14 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sfG" x1="48" y1="48" x2="256" y2="264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6CA77B"/>
+      <stop offset="1" stop-color="#2F7564"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="#F5FAF6"/>
+  <rect x="48" y="48" width="224" height="224" rx="46" fill="url(#sfG)"/>
+  <path d="M97 128C97 103 118 82 143 82H169C194 82 215 103 215 128C215 153 194 174 169 174H143C118 174 97 195 97 220" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="97" cy="220" r="8" fill="#FFFFFF"/>
+  <text x="304" y="149" font-family="Sora, Manrope, Arial, sans-serif" font-size="69" font-weight="700" fill="#173A3D">Set &amp; Forget</text>
+  <text x="304" y="198" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#4E6A69">Thoughtful Communication, Automated</text>
+</svg>

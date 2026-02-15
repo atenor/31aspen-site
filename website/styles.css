@@ -163,6 +163,15 @@ body {
   letter-spacing: 0.18em;
   font-size: 0.75rem;
   text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.brand-favicon {
+  width: 1.05rem;
+  height: 1.05rem;
+  flex: 0 0 auto;
 }
 
 .top-link {

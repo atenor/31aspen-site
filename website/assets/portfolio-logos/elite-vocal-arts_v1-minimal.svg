@@ -1,0 +1,8 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#FFFFFF"/>
+  <rect x="48" y="56" width="208" height="208" rx="24" fill="#1A3341"/>
+  <circle cx="152" cy="122" r="30" fill="#FFFFFF"/>
+  <rect x="142" y="152" width="20" height="66" rx="10" fill="#FFFFFF"/>
+  <text x="290" y="148" font-family="Manrope, Arial, sans-serif" font-size="70" font-weight="700" fill="#1A3341">Elite Vocal Arts</text>
+  <text x="292" y="196" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#60798A">Premier Vocal Development</text>
+</svg>

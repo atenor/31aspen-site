@@ -1,0 +1,7 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#FFFFFF"/>
+  <rect x="48" y="56" width="208" height="208" rx="24" fill="#23364A"/>
+  <path d="M93 126C93 101 114 80 139 80H165C190 80 211 101 211 126C211 151 190 172 165 172H139C114 172 93 193 93 218" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+  <text x="290" y="149" font-family="Manrope, Arial, sans-serif" font-size="70" font-weight="700" fill="#23364A">Set &amp; Forget</text>
+  <text x="292" y="197" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#607184">Reliable Relationship Messaging</text>
+</svg>

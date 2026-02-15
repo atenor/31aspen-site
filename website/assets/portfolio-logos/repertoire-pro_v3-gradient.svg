@@ -1,0 +1,13 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rpG" x1="42" y1="42" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4E78FF"/>
+      <stop offset="1" stop-color="#00B6B1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="#F5F9FF"/>
+  <rect x="48" y="48" width="224" height="224" rx="46" fill="url(#rpG)"/>
+  <path d="M92 95H160C189 95 207 111 207 137C207 157 195 171 176 177L215 226H178L145 183H122V226H92V95ZM122 120V159H155C170 159 178 151 178 140C178 128 170 120 155 120H122Z" fill="#FFFFFF"/>
+  <text x="304" y="150" font-family="Sora, Manrope, Arial, sans-serif" font-size="74" font-weight="700" fill="#12233E">Repertoire Pro</text>
+  <text x="304" y="198" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#46607C">Composed for Modern Performance</text>
+</svg>

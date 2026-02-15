@@ -1,0 +1,9 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="320" fill="#FFFFFF"/>
+  <rect x="48" y="56" width="208" height="208" rx="24" fill="#112742"/>
+  <path d="M92 119H212" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+  <path d="M92 160H212" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+  <path d="M92 201H212" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+  <text x="292" y="149" font-family="Manrope, Arial, sans-serif" font-size="70" font-weight="700" fill="#112742">USAmusic.biz</text>
+  <text x="294" y="198" font-family="Manrope, Arial, sans-serif" font-size="27" font-weight="500" fill="#607086">National Music Services</text>
+</svg>
