@@ -1,0 +1,37 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="loopA" x1="68" y1="62" x2="352" y2="346" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3C7CFF"/>
+      <stop offset="1" stop-color="#00B4A6"/>
+    </linearGradient>
+    <linearGradient id="loopB" x1="70" y1="334" x2="338" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143A63"/>
+      <stop offset="1" stop-color="#2E6BFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="94" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB54A"/>
+      <stop offset="1" stop-color="#FF7A32"/>
+    </linearGradient>
+    <filter id="softGlow" x="0" y="0" width="420" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" fill="white"/>
+
+  <g transform="translate(26,26)">
+    <ellipse cx="184" cy="184" rx="130" ry="96" fill="#D8E7FF" filter="url(#softGlow)" opacity="0.45"/>
+    <path d="M84 188C84 132 129 96 184 96C237 96 284 133 284 188C284 246 239 284 184 284C129 284 84 247 84 188Z" stroke="url(#loopA)" stroke-width="32" stroke-linecap="round"/>
+    <path d="M84 188C84 246 129 284 184 284C237 284 284 246 284 188C284 132 239 96 184 96C129 96 84 132 84 188Z" stroke="url(#loopB)" stroke-width="16" stroke-linecap="round" opacity="0.92"/>
+    <path d="M152 209L177 234L229 181" stroke="#0D2947" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M268 100L318 100L318 50" stroke="#2E6BFF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M318 50L270 97" stroke="#2E6BFF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M188 104C205 84 232 78 251 90C230 91 215 104 206 121C197 139 194 161 195 183C180 165 172 139 176 120C178 113 182 108 188 104Z" fill="url(#accent)" opacity="0.96"/>
+  </g>
+
+  <g transform="translate(390,84)">
+    <text x="0" y="116" font-family="Sora, Manrope, Segoe UI, Arial, sans-serif" font-size="102" font-weight="700" letter-spacing="-1.2" fill="#0D2947">Set &amp; Forget</text>
+    <text x="4" y="174" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="4.2" fill="#2E6BFF">AUTOMATION MADE RELIABLE</text>
+    <rect x="4" y="196" width="640" height="5" rx="2.5" fill="url(#loopA)"/>
+  </g>
+</svg>

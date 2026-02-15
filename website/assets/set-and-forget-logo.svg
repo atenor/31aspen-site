@@ -1,0 +1,22 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sfGradient" x1="40" y1="40" x2="320" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F70FF"/>
+      <stop offset="1" stop-color="#00A3A3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="white"/>
+
+  <g transform="translate(40,40)">
+    <circle cx="140" cy="140" r="118" stroke="url(#sfGradient)" stroke-width="24"/>
+    <path d="M224 100L271 100L271 53" stroke="#2F70FF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M271 53L221 106" stroke="#2F70FF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M88 145L126 183L199 110" stroke="#0E2440" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(350,78)">
+    <text x="0" y="110" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="92" font-weight="800" fill="#0E2440">Set &amp; Forget</text>
+    <text x="2" y="170" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="2.5" fill="#4F6480">AUTOMATION SERVICES</text>
+  </g>
+</svg>

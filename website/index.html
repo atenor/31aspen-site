@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>31 Aspen Holdings</title>
+    <meta
+      name="description"
+      content="31 Aspen Holdings curates a portfolio of innovative and groundbreaking businesses across creative, technical, and service-driven fields."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="hero" aria-label="Maroon Bells inspired mountain vista">
+        <div class="hero-image" aria-hidden="true">
+          <div class="ridge ridge-back"></div>
+          <div class="ridge ridge-mid"></div>
+          <div class="ridge ridge-front"></div>
+          <div class="aspen aspen-left"></div>
+          <div class="aspen aspen-right"></div>
+          <div class="waterline"></div>
+        </div>
+
+        <header class="hero-content">
+          <nav class="topbar" aria-label="Main">
+            <span class="brand-mini">31 Aspen Holdings</span>
+            <a class="top-link" href="#portfolio-title">Portfolio</a>
+          </nav>
+
+          <img
+            class="logo"
+            src="assets/logo.svg"
+            alt="31 Aspen Holdings logo"
+            width="300"
+            height="110"
+          />
+          <h1>A portfolio shaped by bold ideas and mountain-grade resilience.</h1>
+          <p class="lead">
+            31 Aspen Holdings curates innovative and groundbreaking businesses
+            across creative, technical, and service-driven fields.
+          </p>
+          <div class="hero-chips">
+            <span>6 Portfolio Companies</span>
+            <span>3 Core Verticals</span>
+            <span>Long-Term Builder</span>
+          </div>
+        </header>
+      </section>
+
+      <section class="panel portfolio" aria-labelledby="portfolio-title">
+        <div class="section-head">
+          <h2 id="portfolio-title">Portfolio Companies</h2>
+          <p class="section-note">Creative, Technical, Service</p>
+        </div>
+        <ul class="company-grid">
+          <li class="company-card"><h3>Repertoire Pro</h3></li>
+          <li class="company-card"><h3>AdjudicArts</h3></li>
+          <li class="company-card"><h3>Elite Vocal Arts</h3></li>
+          <li class="company-card"><h3>USAmusic.biz</h3></li>
+          <li class="company-card"><h3>Set &amp; Forget</h3></li>
+          <li class="company-card"><h3>Lazy Schedule</h3></li>
+        </ul>
+      </section>
+
+      <section class="panel contact" aria-labelledby="contact-title">
+        <div class="section-head">
+          <h2 id="contact-title">Contact Us</h2>
+          <p class="section-note">31 Aspen Holdings</p>
+        </div>
+        <div class="contact-intro">
+          <h3>Partnership &amp; Investment Inquiries</h3>
+          <p>
+            We selectively consider opportunities aligned with our focus across
+            creative, technical, and service-driven sectors. Qualified founders
+            and operators may contact us with a brief overview of their
+            business.
+          </p>
+        </div>
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/emailandytoday@gmail.com"
+          method="post"
+        >
+          <input type="hidden" name="_subject" value="New 31 Aspen Contact Form Submission" />
+          <input type="hidden" name="_captcha" value="true" />
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hp-field" />
+          <input type="hidden" name="_template" value="table" />
+
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+
+          <label for="company">Company</label>
+          <input id="company" name="company" type="text" autocomplete="organization" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> 31 Aspen Holdings. All rights reserved.</p>
+      </footer>
+    </main>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

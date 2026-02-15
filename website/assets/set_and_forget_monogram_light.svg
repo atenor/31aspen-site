@@ -1,0 +1,8 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1024" height="1024" fill="#FFFFFF"/>
+  <g aria-label="Set and Forget monogram" fill="#0B1F3B" font-family="Manrope, sans-serif" font-weight="700">
+    <text x="410" y="430" font-size="320" text-anchor="middle">S</text>
+    <text x="614" y="700" font-size="320" text-anchor="middle">F</text>
+  </g>
+  <path d="M490 470L585 585" stroke="#0F766E" stroke-width="46" stroke-linecap="round"/>
+</svg>

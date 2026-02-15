@@ -1,0 +1,13 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="360" fill="white"/>
+  <g transform="translate(36,44)">
+    <rect width="272" height="272" rx="64" fill="#4E667B"/>
+    <text x="74" y="166" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="120" font-weight="700" fill="#F8FBFF">S</text>
+    <path d="M149 188L201 96" stroke="#F1A48A" stroke-width="14" stroke-linecap="round"/>
+    <text x="160" y="226" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="116" font-weight="700" fill="#F8FBFF">F</text>
+  </g>
+  <g transform="translate(356,82)">
+    <text x="0" y="118" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-1.2" fill="#172039">Set &amp; Forget</text>
+    <text x="2" y="176" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="600" letter-spacing="1.3" fill="#5E667A">Thoughtful messages, sent automatically.</text>
+  </g>
+</svg>

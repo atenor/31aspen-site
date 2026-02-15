@@ -1,0 +1,16 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="360" fill="white"/>
+
+  <g transform="translate(36,44)">
+    <rect width="272" height="272" rx="64" fill="#6F8F73"/>
+
+    <path d="M84 96C104 78 133 69 162 73C189 78 207 96 207 116C207 140 185 154 155 161C124 168 102 181 102 205C102 226 121 242 149 244C174 246 196 239 212 223" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M176 74V236M176 95H226M176 158H213" stroke="#E5EFE6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="176" cy="158" r="7" fill="#E5EFE6"/>
+  </g>
+
+  <g transform="translate(356,82)">
+    <text x="0" y="118" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-1.2" fill="#1A1E3A">Set &amp; Forget</text>
+    <text x="2" y="176" font-family="Manrope, Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="600" letter-spacing="1.3" fill="#6A6F80">Set it once. Forget the stress.</text>
+  </g>
+</svg>
