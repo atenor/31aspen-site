@@ -316,6 +316,7 @@ body {
 .brand-mini {
   color: #d8e5d8;
   font-weight: 600;
+  font-family: "The Seasons", "Fraunces", serif;
   letter-spacing: 0.18em;
   font-size: 0.75rem;
   line-height: 1;
@@ -368,7 +369,7 @@ body {
 
 h1 {
   margin: 0.7rem 0 0.9rem;
-  font-family: "Fraunces", serif;
+  font-family: "The Seasons", "Fraunces", serif;
   font-size: clamp(2.1rem, 4.6vw, 3.85rem);
   line-height: 1.03;
   letter-spacing: -0.015em;
@@ -479,7 +480,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-family: "Fraunces", serif;
+  font-family: "The Seasons", "Fraunces", serif;
   font-size: clamp(1.25rem, 2.3vw, 1.7rem);
   color: #20303f;
 }
