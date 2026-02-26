@@ -94,7 +94,7 @@ body {
 
 .aspen-back {
   position: absolute;
-  width: 36%;
+  width: 25%;
   height: 28%;
   bottom: 31%;
   z-index: 3;
@@ -175,7 +175,7 @@ body {
 .aspen {
   position: absolute;
   bottom: 12%;
-  width: 50%;
+  width: 35%;
   height: 50%;
   filter: saturate(1.12) drop-shadow(0 10px 20px rgba(14, 26, 36, 0.35));
   z-index: 5;
@@ -268,19 +268,19 @@ body {
 }
 
 .aspen-left {
-  left: -9%;
+  left: -6%;
 }
 
 .aspen-center {
-  left: 27%;
-  width: 44%;
+  left: 34%;
+  width: 31%;
   height: 43%;
   bottom: 13%;
   opacity: 0.84;
 }
 
 .aspen-right {
-  right: -9%;
+  right: -6%;
   transform: scaleX(-1);
 }
 
