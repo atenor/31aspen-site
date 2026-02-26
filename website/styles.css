@@ -804,92 +804,80 @@ a:focus-visible {
     top: 66%;
   }
 
+  .aspen-back {
+    display: none;
+  }
+
   .aspen::before {
-    opacity: 0.78;
+    opacity: 0.92;
+    background-image:
+      linear-gradient(180deg, rgba(243, 237, 212, 0.95), rgba(188, 177, 146, 0.9)),
+      repeating-linear-gradient(
+        180deg,
+        rgba(120, 108, 83, 0.24) 0 4px,
+        rgba(120, 108, 83, 0.08) 4px 8px
+      );
+    background-size:
+      16% 100%,
+      16% 100%;
+    background-position:
+      50% 100%,
+      50% 100%;
   }
 
   .aspen::after {
-    opacity: 0.68;
-  }
-
-  .aspen-back::after {
-    opacity: 0.58;
-  }
-
-  .back-1 {
-    left: -9%;
-    width: 15%;
-    height: 13%;
-    bottom: 31.8%;
-    opacity: 0.32;
-  }
-
-  .back-2 {
-    left: 14%;
-    width: 13.5%;
-    height: 12.2%;
-    bottom: 33%;
-    opacity: 0.28;
-    transform: scaleX(-1);
-  }
-
-  .back-3 {
-    left: 43%;
-    width: 16%;
-    height: 13.4%;
-    bottom: 31.2%;
-    opacity: 0.34;
-  }
-
-  .back-4 {
-    left: 74%;
-    width: 14%;
-    height: 12.6%;
-    bottom: 32.4%;
-    opacity: 0.3;
-    transform: scaleX(-1);
+    opacity: 0.84;
+    background-image:
+      radial-gradient(circle at 50% 14%, #d7e56b 0 14px, transparent 15px),
+      radial-gradient(circle at 38% 22%, var(--leaf-green-1) 0 12px, transparent 13px),
+      radial-gradient(circle at 62% 22%, var(--leaf-green-2) 0 12px, transparent 13px),
+      radial-gradient(circle at 28% 33%, #bcd038 0 11px, transparent 12px),
+      radial-gradient(circle at 72% 33%, var(--leaf-green-3) 0 11px, transparent 12px),
+      radial-gradient(circle at 40% 38%, var(--leaf-green-1) 0 11px, transparent 12px),
+      radial-gradient(circle at 60% 39%, var(--leaf-green-2) 0 11px, transparent 12px),
+      radial-gradient(circle at 50% 46%, #d7e56b 0 10px, transparent 11px);
   }
 
   .fore-1 {
-    left: -8%;
-    width: 19%;
-    height: 31%;
-    bottom: 15.8%;
-    opacity: 0.72;
+    left: -3%;
+    width: 16%;
+    height: 33%;
+    bottom: 10.8%;
+    opacity: 0.86;
   }
 
   .fore-2 {
-    left: 12%;
-    width: 16.5%;
-    height: 28.5%;
-    bottom: 16.6%;
-    opacity: 0.68;
+    left: 19%;
+    width: 14%;
+    height: 30%;
+    bottom: 12%;
+    opacity: 0.82;
     transform: scaleX(-1);
   }
 
   .fore-3 {
-    left: 34%;
-    width: 19%;
-    height: 32%;
-    bottom: 15.2%;
-    opacity: 0.75;
+    left: 42%;
+    width: 17%;
+    height: 35%;
+    bottom: 10.1%;
+    opacity: 0.89;
   }
 
   .fore-4 {
-    left: 58%;
-    width: 17.2%;
-    height: 29.5%;
-    bottom: 16.1%;
-    opacity: 0.7;
+    left: 66%;
+    width: 14.5%;
+    height: 31%;
+    bottom: 11.4%;
+    opacity: 0.84;
     transform: scaleX(-1);
   }
 
   .fore-5 {
-    left: 80%;
-    width: 18.4%;
-    height: 30.5%;
-    bottom: 15.4%;
-    opacity: 0.73;
+    left: 86%;
+    width: 15.5%;
+    height: 32%;
+    bottom: 10.9%;
+    opacity: 0.86;
   }
 
   .brand-favicon {
