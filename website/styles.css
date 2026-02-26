@@ -172,6 +172,40 @@ body {
   transform: scaleX(-1);
 }
 
+.back-1 {
+  left: -8%;
+  width: 24%;
+  height: 25%;
+  bottom: 30%;
+  opacity: 0.48;
+}
+
+.back-2 {
+  left: 16%;
+  width: 22%;
+  height: 23%;
+  bottom: 32%;
+  opacity: 0.42;
+  transform: scaleX(-1);
+}
+
+.back-3 {
+  left: 45%;
+  width: 26%;
+  height: 26%;
+  bottom: 29%;
+  opacity: 0.5;
+}
+
+.back-4 {
+  left: 74%;
+  width: 23%;
+  height: 24%;
+  bottom: 31%;
+  opacity: 0.44;
+  transform: scaleX(-1);
+}
+
 .aspen {
   position: absolute;
   bottom: 12%;
@@ -282,6 +316,48 @@ body {
 .aspen-right {
   right: -6%;
   transform: scaleX(-1);
+}
+
+.fore-1 {
+  left: -7%;
+  width: 32%;
+  height: 42%;
+  bottom: 11.8%;
+  opacity: 0.82;
+}
+
+.fore-2 {
+  left: 13%;
+  width: 29%;
+  height: 39%;
+  bottom: 14%;
+  opacity: 0.78;
+  transform: scaleX(-1);
+}
+
+.fore-3 {
+  left: 37%;
+  width: 34%;
+  height: 44%;
+  bottom: 11%;
+  opacity: 0.87;
+}
+
+.fore-4 {
+  left: 63%;
+  width: 30%;
+  height: 40%;
+  bottom: 13.2%;
+  opacity: 0.8;
+  transform: scaleX(-1);
+}
+
+.fore-5 {
+  left: 86%;
+  width: 31%;
+  height: 41%;
+  bottom: 12.3%;
+  opacity: 0.83;
 }
 
 .waterline {
@@ -709,6 +785,68 @@ a:focus-visible {
   .logo {
     width: min(42vw, 182px);
     margin-top: 0.2rem;
+  }
+
+  .aspen::before {
+    opacity: 0.82;
+  }
+
+  .aspen::after {
+    opacity: 0.76;
+  }
+
+  .aspen-back::after {
+    opacity: 0.68;
+  }
+
+  .back-1 {
+    left: -7%;
+    width: 20%;
+    height: 17%;
+    bottom: 30.5%;
+    opacity: 0.34;
+  }
+
+  .back-2,
+  .back-4 {
+    display: none;
+  }
+
+  .back-3 {
+    left: 66%;
+    width: 22%;
+    height: 18%;
+    bottom: 29.8%;
+    opacity: 0.36;
+  }
+
+  .fore-2,
+  .fore-4 {
+    display: none;
+  }
+
+  .fore-1 {
+    left: -8%;
+    width: 23%;
+    height: 35%;
+    bottom: 15.5%;
+    opacity: 0.74;
+  }
+
+  .fore-3 {
+    left: 31%;
+    width: 27%;
+    height: 38%;
+    bottom: 14.2%;
+    opacity: 0.8;
+  }
+
+  .fore-5 {
+    left: 73%;
+    width: 24%;
+    height: 36%;
+    bottom: 15%;
+    opacity: 0.76;
   }
 
   .brand-favicon {
