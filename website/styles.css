@@ -169,8 +169,8 @@ body {
 }
 
 .brand-favicon {
-  width: 1.05rem;
-  height: 1.05rem;
+  width: 1.58rem;
+  height: 1.58rem;
   flex: 0 0 auto;
 }
 
@@ -472,6 +472,11 @@ a:focus-visible {
   .hero-content {
     margin: 0.55rem;
     border-radius: 12px;
+  }
+
+  .brand-favicon {
+    width: 1.4rem;
+    height: 1.4rem;
   }
 
   .section-head {
