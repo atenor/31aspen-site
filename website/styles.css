@@ -141,6 +141,11 @@ body {
     radial-gradient(circle at 80% 27%, var(--leaf-green-3) 0 10px, transparent 11px),
     radial-gradient(circle at 88% 33%, var(--leaf-green-2) 0 10px, transparent 11px),
     radial-gradient(circle at 95% 28%, #b7cb36 0 10px, transparent 11px),
+    radial-gradient(circle at 12% 48%, var(--leaf-green-1) 0 8px, transparent 9px),
+    radial-gradient(circle at 28% 52%, #d0dd65 0 8px, transparent 9px),
+    radial-gradient(circle at 46% 49%, var(--leaf-green-2) 0 8px, transparent 9px),
+    radial-gradient(circle at 64% 53%, #b7cb36 0 8px, transparent 9px),
+    radial-gradient(circle at 83% 50%, var(--leaf-green-1) 0 8px, transparent 9px),
     radial-gradient(circle at 9% 58%, var(--leaf-green-1) 0 7px, transparent 8px),
     radial-gradient(circle at 33% 62%, #b7cb36 0 7px, transparent 8px),
     radial-gradient(circle at 57% 60%, var(--leaf-green-2) 0 7px, transparent 8px),
@@ -232,6 +237,13 @@ body {
     radial-gradient(circle at 41% 40%, var(--leaf-green-3) 0 8px, transparent 9px),
     radial-gradient(circle at 65% 39%, var(--leaf-green-1) 0 8px, transparent 9px),
     radial-gradient(circle at 87% 40%, var(--leaf-green-2) 0 8px, transparent 9px),
+    radial-gradient(circle at 9% 50%, var(--leaf-green-1) 0 9px, transparent 10px),
+    radial-gradient(circle at 23% 55%, #bcd038 0 9px, transparent 10px),
+    radial-gradient(circle at 37% 51%, var(--leaf-green-2) 0 9px, transparent 10px),
+    radial-gradient(circle at 51% 56%, #d7e56b 0 9px, transparent 10px),
+    radial-gradient(circle at 65% 51%, var(--leaf-green-3) 0 9px, transparent 10px),
+    radial-gradient(circle at 79% 55%, var(--leaf-green-1) 0 9px, transparent 10px),
+    radial-gradient(circle at 92% 50%, var(--leaf-green-2) 0 9px, transparent 10px),
     radial-gradient(circle at 6% 61%, var(--leaf-green-1) 0 8px, transparent 9px),
     radial-gradient(circle at 17% 67%, #b7cb36 0 7px, transparent 8px),
     radial-gradient(circle at 28% 63%, var(--leaf-green-2) 0 8px, transparent 9px),
@@ -355,7 +367,8 @@ body {
 
 h1 {
   margin: 0.7rem 0 0.9rem;
-  font-family: "Fraunces", serif;
+  font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  font-weight: 700;
   font-size: clamp(2.1rem, 4.6vw, 3.85rem);
   line-height: 1.03;
   letter-spacing: -0.015em;
@@ -466,7 +479,8 @@ h1 {
 
 h2 {
   margin: 0;
-  font-family: "Fraunces", serif;
+  font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  font-weight: 700;
   font-size: clamp(1.25rem, 2.3vw, 1.7rem);
   color: #20303f;
 }
@@ -523,7 +537,8 @@ h2 {
 
 .contact-intro h3 {
   margin: 0 0 0.3rem;
-  font-family: "Fraunces", serif;
+  font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  font-weight: 700;
   font-size: 1.08rem;
   color: #24363f;
 }
