@@ -7,6 +7,10 @@
   --accent-deep: #2f5f3f;
   --night: #122138;
   --shadow: 0 28px 55px rgba(16, 31, 48, 0.22);
+  --leaf-green-1: #a8bc12;
+  --leaf-green-2: #90a80d;
+  --leaf-green-3: #7f9708;
+  --leaf-green-hi: #c5d63b;
 }
 
 * {
@@ -95,13 +99,13 @@ body {
 
 .aspen::before {
   background-image:
-    linear-gradient(180deg, rgba(244, 238, 206, 0.88), rgba(214, 204, 169, 0.84)),
-    linear-gradient(180deg, rgba(244, 238, 206, 0.84), rgba(214, 204, 169, 0.8)),
-    linear-gradient(180deg, rgba(244, 238, 206, 0.84), rgba(214, 204, 169, 0.8)),
-    linear-gradient(180deg, rgba(244, 238, 206, 0.84), rgba(214, 204, 169, 0.8)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.9), rgba(198, 189, 156, 0.86)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.86), rgba(198, 189, 156, 0.82)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.86), rgba(198, 189, 156, 0.82)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.86), rgba(198, 189, 156, 0.82)),
     repeating-linear-gradient(
       180deg,
-      rgba(76, 85, 78, 0.42) 0 2px,
+      rgba(72, 80, 74, 0.46) 0 2px,
       transparent 2px 11px
     );
   background-size:
@@ -121,14 +125,16 @@ body {
 
 .aspen::after {
   background-image:
-    radial-gradient(ellipse at 15% 33%, rgba(226, 211, 112, 0.9) 0 24%, transparent 25%),
-    radial-gradient(ellipse at 27% 30%, rgba(241, 224, 132, 0.92) 0 26%, transparent 27%),
-    radial-gradient(ellipse at 39% 36%, rgba(215, 195, 102, 0.86) 0 23%, transparent 24%),
-    radial-gradient(ellipse at 22% 46%, rgba(248, 235, 156, 0.84) 0 18%, transparent 19%),
-    radial-gradient(ellipse at 6% 45%, rgba(218, 197, 96, 0.78) 0 15%, transparent 16%),
-    radial-gradient(ellipse at 48% 34%, rgba(232, 216, 121, 0.84) 0 18%, transparent 19%),
-    radial-gradient(ellipse at 34% 48%, rgba(205, 188, 95, 0.76) 0 16%, transparent 17%);
-  opacity: 0.95;
+    radial-gradient(circle at 9px 9px, #d7e56b 0 4px, transparent 4.6px),
+    radial-gradient(circle at 19px 15px, var(--leaf-green-1) 0 4.8px, transparent 5.4px),
+    radial-gradient(circle at 30px 10px, var(--leaf-green-2) 0 4.4px, transparent 5px),
+    radial-gradient(circle at 41px 16px, var(--leaf-green-3) 0 4.6px, transparent 5.2px),
+    radial-gradient(circle at 14px 25px, var(--leaf-green-2) 0 4.3px, transparent 4.9px),
+    radial-gradient(circle at 28px 27px, #bcd038 0 4.5px, transparent 5.1px),
+    radial-gradient(circle at 40px 26px, var(--leaf-green-3) 0 4.1px, transparent 4.7px);
+  background-size: 52px 36px;
+  background-repeat: repeat;
+  opacity: 0.96;
 }
 
 .aspen-left {
