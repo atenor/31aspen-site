@@ -808,6 +808,23 @@ a:focus-visible {
     display: none;
   }
 
+  .aspen {
+    --leaf-scale: 1;
+    --leaf-x: 0;
+    --leaf-y: 0;
+    --leaf-rot: 0deg;
+    --leaf-sat: 1;
+    --leaf-opacity: 0.86;
+    --leaf-blur: 0px;
+    --trunk-w: 14%;
+    --trunk-x: 50%;
+    --trunk-h: 82%;
+    --trunk-tilt: 0deg;
+    --canopy-top: -24%;
+    --canopy-bottom: 20%;
+    overflow: visible;
+  }
+
   .aspen::before {
     opacity: 0.92;
     background-image:
@@ -818,66 +835,201 @@ a:focus-visible {
         rgba(120, 108, 83, 0.08) 4px 8px
       );
     background-size:
-      16% 100%,
-      16% 100%;
+      var(--trunk-w, 16%) var(--trunk-h, 82%),
+      var(--trunk-w, 16%) var(--trunk-h, 82%);
     background-position:
-      50% 100%,
-      50% 100%;
+      var(--trunk-x, 50%) 100%,
+      var(--trunk-x, 50%) 100%;
+    transform: rotate(var(--trunk-tilt, 0deg));
+    transform-origin: 50% 100%;
   }
 
   .aspen::after {
-    opacity: 0.84;
-    background-image:
-      radial-gradient(circle at 50% 14%, #d7e56b 0 14px, transparent 15px),
-      radial-gradient(circle at 38% 22%, var(--leaf-green-1) 0 12px, transparent 13px),
-      radial-gradient(circle at 62% 22%, var(--leaf-green-2) 0 12px, transparent 13px),
-      radial-gradient(circle at 28% 33%, #bcd038 0 11px, transparent 12px),
-      radial-gradient(circle at 72% 33%, var(--leaf-green-3) 0 11px, transparent 12px),
-      radial-gradient(circle at 40% 38%, var(--leaf-green-1) 0 11px, transparent 12px),
-      radial-gradient(circle at 60% 39%, var(--leaf-green-2) 0 11px, transparent 12px),
-      radial-gradient(circle at 50% 46%, #d7e56b 0 10px, transparent 11px);
+    inset: var(--canopy-top, -24%) -34% var(--canopy-bottom, 20%) -34%;
+    opacity: var(--leaf-opacity, 0.86);
+    background-image: var(
+      --leaf-pattern,
+      radial-gradient(circle at 50% 5%, #d7e56b 0 12%, transparent 13%),
+      radial-gradient(circle at 35% 12%, var(--leaf-green-1) 0 11%, transparent 12%),
+      radial-gradient(circle at 67% 13%, var(--leaf-green-2) 0 11%, transparent 12%),
+      radial-gradient(circle at 23% 22%, #bcd038 0 10%, transparent 11%),
+      radial-gradient(circle at 79% 22%, var(--leaf-green-3) 0 10%, transparent 11%),
+      radial-gradient(circle at 41% 26%, var(--leaf-green-1) 0 10%, transparent 11%),
+      radial-gradient(circle at 58% 27%, var(--leaf-green-2) 0 10%, transparent 11%),
+      radial-gradient(circle at 30% 35%, #b7cb36 0 9%, transparent 10%),
+      radial-gradient(circle at 70% 36%, var(--leaf-green-1) 0 9%, transparent 10%),
+      radial-gradient(circle at 49% 38%, #d7e56b 0 9%, transparent 10%),
+      radial-gradient(circle at 36% 47%, var(--leaf-green-3) 0 8%, transparent 9%),
+      radial-gradient(circle at 63% 47%, #b7cb36 0 8%, transparent 9%),
+      radial-gradient(circle at 46% 55%, var(--leaf-green-2) 0 7.5%, transparent 8.5%),
+      radial-gradient(circle at 55% 56%, #d7e56b 0 7.5%, transparent 8.5%)
+    );
+    transform: translate(var(--leaf-x, 0), var(--leaf-y, 0)) scale(var(--leaf-scale, 1))
+      rotate(var(--leaf-rot, 0deg));
+    transform-origin: 50% 30%;
+    filter: saturate(var(--leaf-sat, 1)) blur(var(--leaf-blur, 0px));
   }
 
   .fore-1 {
-    left: -3%;
-    width: 16%;
-    height: 33%;
-    bottom: 10.8%;
-    opacity: 0.86;
+    left: -1%;
+    width: 12.4%;
+    height: 27.5%;
+    bottom: 13.7%;
+    opacity: 0.72;
+    --trunk-w: 12.6%;
+    --trunk-x: 52%;
+    --trunk-h: 85%;
+    --trunk-tilt: -0.8deg;
+    --canopy-top: -25%;
+    --canopy-bottom: 18%;
+    --leaf-scale: 0.95;
+    --leaf-x: -2%;
+    --leaf-y: 0.5%;
+    --leaf-rot: -6deg;
+    --leaf-sat: 0.93;
+    --leaf-opacity: 0.84;
+    --leaf-pattern:
+      radial-gradient(circle at 51% 5%, #d7e56b 0 12%, transparent 13%),
+      radial-gradient(circle at 34% 12%, var(--leaf-green-1) 0 11%, transparent 12%),
+      radial-gradient(circle at 69% 12%, #b7cb36 0 11%, transparent 12%),
+      radial-gradient(circle at 24% 21%, var(--leaf-green-2) 0 10%, transparent 11%),
+      radial-gradient(circle at 78% 22%, var(--leaf-green-3) 0 10%, transparent 11%),
+      radial-gradient(circle at 43% 28%, #d7e56b 0 10%, transparent 11%),
+      radial-gradient(circle at 62% 31%, var(--leaf-green-1) 0 9%, transparent 10%),
+      radial-gradient(circle at 33% 37%, #bcd038 0 9%, transparent 10%),
+      radial-gradient(circle at 69% 39%, var(--leaf-green-2) 0 9%, transparent 10%),
+      radial-gradient(circle at 47% 45%, #d7e56b 0 8%, transparent 9%);
   }
 
   .fore-2 {
-    left: 19%;
-    width: 14%;
-    height: 30%;
-    bottom: 12%;
-    opacity: 0.82;
-    transform: scaleX(-1);
+    left: 18.5%;
+    width: 10.6%;
+    height: 23.8%;
+    bottom: 15.2%;
+    opacity: 0.63;
+    transform: rotate(1.1deg);
+    --trunk-w: 11.2%;
+    --trunk-x: 48%;
+    --trunk-h: 79%;
+    --trunk-tilt: 0.7deg;
+    --canopy-top: -22%;
+    --canopy-bottom: 24%;
+    --leaf-scale: 0.86;
+    --leaf-x: 1.7%;
+    --leaf-y: 1.8%;
+    --leaf-rot: 5deg;
+    --leaf-sat: 0.91;
+    --leaf-opacity: 0.77;
+    --leaf-pattern:
+      radial-gradient(circle at 49% 7%, #d7e56b 0 11%, transparent 12%),
+      radial-gradient(circle at 33% 14%, var(--leaf-green-1) 0 10%, transparent 11%),
+      radial-gradient(circle at 66% 15%, var(--leaf-green-2) 0 10%, transparent 11%),
+      radial-gradient(circle at 24% 25%, #bcd038 0 9%, transparent 10%),
+      radial-gradient(circle at 74% 25%, var(--leaf-green-3) 0 9%, transparent 10%),
+      radial-gradient(circle at 40% 29%, #d7e56b 0 9%, transparent 10%),
+      radial-gradient(circle at 60% 31%, var(--leaf-green-1) 0 8%, transparent 9%),
+      radial-gradient(circle at 46% 38%, #b7cb36 0 8%, transparent 9%),
+      radial-gradient(circle at 34% 44%, var(--leaf-green-2) 0 7%, transparent 8%),
+      radial-gradient(circle at 64% 43%, var(--leaf-green-1) 0 7%, transparent 8%);
   }
 
   .fore-3 {
-    left: 42%;
-    width: 17%;
-    height: 35%;
-    bottom: 10.1%;
-    opacity: 0.89;
+    left: 40%;
+    width: 16.9%;
+    height: 34.8%;
+    bottom: 10.5%;
+    opacity: 0.91;
+    --trunk-w: 15.4%;
+    --trunk-x: 51%;
+    --trunk-h: 86%;
+    --trunk-tilt: -0.5deg;
+    --canopy-top: -28%;
+    --canopy-bottom: 17%;
+    --leaf-scale: 1.12;
+    --leaf-x: -1%;
+    --leaf-y: -1.4%;
+    --leaf-rot: 1deg;
+    --leaf-sat: 1.02;
+    --leaf-opacity: 0.9;
+    --leaf-pattern:
+      radial-gradient(circle at 50% 4%, #d7e56b 0 13%, transparent 14%),
+      radial-gradient(circle at 33% 11%, var(--leaf-green-1) 0 12%, transparent 13%),
+      radial-gradient(circle at 69% 12%, var(--leaf-green-2) 0 12%, transparent 13%),
+      radial-gradient(circle at 23% 20%, #bcd038 0 11%, transparent 12%),
+      radial-gradient(circle at 79% 20%, var(--leaf-green-3) 0 11%, transparent 12%),
+      radial-gradient(circle at 40% 25%, #d7e56b 0 11%, transparent 12%),
+      radial-gradient(circle at 58% 26%, var(--leaf-green-1) 0 11%, transparent 12%),
+      radial-gradient(circle at 30% 34%, #b7cb36 0 10%, transparent 11%),
+      radial-gradient(circle at 72% 35%, var(--leaf-green-2) 0 10%, transparent 11%),
+      radial-gradient(circle at 48% 38%, #d7e56b 0 10%, transparent 11%),
+      radial-gradient(circle at 36% 46%, var(--leaf-green-3) 0 9%, transparent 10%),
+      radial-gradient(circle at 63% 46%, var(--leaf-green-1) 0 9%, transparent 10%),
+      radial-gradient(circle at 43% 54%, #b7cb36 0 8%, transparent 9%),
+      radial-gradient(circle at 57% 54%, var(--leaf-green-2) 0 8%, transparent 9%);
   }
 
   .fore-4 {
-    left: 66%;
-    width: 14.5%;
-    height: 31%;
-    bottom: 11.4%;
-    opacity: 0.84;
-    transform: scaleX(-1);
+    left: 63.5%;
+    width: 13.8%;
+    height: 29.6%;
+    bottom: 12.1%;
+    opacity: 0.77;
+    transform: rotate(-1.3deg);
+    --trunk-w: 12.9%;
+    --trunk-x: 47%;
+    --trunk-h: 83%;
+    --trunk-tilt: 0.9deg;
+    --canopy-top: -23%;
+    --canopy-bottom: 20%;
+    --leaf-scale: 1;
+    --leaf-x: 2.6%;
+    --leaf-y: 0.4%;
+    --leaf-rot: -4deg;
+    --leaf-sat: 0.97;
+    --leaf-opacity: 0.85;
+    --leaf-pattern:
+      radial-gradient(circle at 50% 6%, #d7e56b 0 12%, transparent 13%),
+      radial-gradient(circle at 30% 14%, var(--leaf-green-1) 0 11%, transparent 12%),
+      radial-gradient(circle at 69% 15%, var(--leaf-green-2) 0 11%, transparent 12%),
+      radial-gradient(circle at 22% 24%, #bcd038 0 10%, transparent 11%),
+      radial-gradient(circle at 75% 25%, var(--leaf-green-3) 0 10%, transparent 11%),
+      radial-gradient(circle at 39% 30%, #d7e56b 0 10%, transparent 11%),
+      radial-gradient(circle at 58% 32%, var(--leaf-green-1) 0 9%, transparent 10%),
+      radial-gradient(circle at 31% 39%, #b7cb36 0 9%, transparent 10%),
+      radial-gradient(circle at 66% 40%, var(--leaf-green-2) 0 9%, transparent 10%),
+      radial-gradient(circle at 47% 46%, #d7e56b 0 8%, transparent 9%),
+      radial-gradient(circle at 55% 54%, var(--leaf-green-1) 0 7%, transparent 8%);
   }
 
   .fore-5 {
-    left: 86%;
-    width: 15.5%;
-    height: 32%;
-    bottom: 10.9%;
-    opacity: 0.86;
+    left: 84.5%;
+    width: 11.9%;
+    height: 25.6%;
+    bottom: 14.4%;
+    opacity: 0.69;
+    --trunk-w: 11.5%;
+    --trunk-x: 53%;
+    --trunk-h: 80%;
+    --trunk-tilt: -0.6deg;
+    --canopy-top: -22%;
+    --canopy-bottom: 23%;
+    --leaf-scale: 0.89;
+    --leaf-x: -2.3%;
+    --leaf-y: 1.4%;
+    --leaf-rot: 7deg;
+    --leaf-sat: 0.9;
+    --leaf-opacity: 0.76;
+    --leaf-pattern:
+      radial-gradient(circle at 52% 7%, #d7e56b 0 11%, transparent 12%),
+      radial-gradient(circle at 35% 15%, var(--leaf-green-1) 0 10%, transparent 11%),
+      radial-gradient(circle at 67% 14%, var(--leaf-green-2) 0 10%, transparent 11%),
+      radial-gradient(circle at 25% 24%, #bcd038 0 9%, transparent 10%),
+      radial-gradient(circle at 73% 24%, var(--leaf-green-3) 0 9%, transparent 10%),
+      radial-gradient(circle at 41% 29%, #d7e56b 0 9%, transparent 10%),
+      radial-gradient(circle at 60% 31%, var(--leaf-green-1) 0 8%, transparent 9%),
+      radial-gradient(circle at 33% 38%, #b7cb36 0 8%, transparent 9%),
+      radial-gradient(circle at 66% 40%, var(--leaf-green-2) 0 8%, transparent 9%),
+      radial-gradient(circle at 49% 45%, #d7e56b 0 7%, transparent 8%);
   }
 
   .brand-favicon {
