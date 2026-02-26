@@ -100,33 +100,47 @@ body {
 }
 
 .aspen-back::before {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 6.5%,
-      rgba(236, 232, 206, 0.78) 6.5% 7.1%,
-      rgba(186, 178, 149, 0.74) 7.1% 7.45%,
-      transparent 7.45% 13%
-    );
-  background-size: 100% 72%;
-  background-position: 0 100%;
+  background-image:
+    linear-gradient(180deg, rgba(236, 232, 206, 0.82), rgba(186, 178, 149, 0.78)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.82), rgba(186, 178, 149, 0.78)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.82), rgba(186, 178, 149, 0.78)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.82), rgba(186, 178, 149, 0.78)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.82), rgba(186, 178, 149, 0.78)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.82), rgba(186, 178, 149, 0.78)),
+    linear-gradient(180deg, rgba(236, 232, 206, 0.82), rgba(186, 178, 149, 0.78));
+  background-size:
+    9px 66%,
+    8px 58%,
+    9px 63%,
+    8px 54%,
+    9px 60%,
+    8px 56%,
+    9px 61%;
+  background-position:
+    7% 100%,
+    21% 100%,
+    35% 100%,
+    50% 100%,
+    65% 100%,
+    80% 100%,
+    93% 100%;
   background-repeat: no-repeat;
 }
 
 .aspen-back::after {
   background:
-    radial-gradient(circle at 8% 46%, #d0dd65 0 8px, transparent 9px),
-    radial-gradient(circle at 14% 40%, var(--leaf-green-1) 0 9px, transparent 10px),
-    radial-gradient(circle at 20% 47%, var(--leaf-green-2) 0 8px, transparent 9px),
-    radial-gradient(circle at 28% 41%, #b7cb36 0 8px, transparent 9px),
-    radial-gradient(circle at 36% 47%, var(--leaf-green-3) 0 8px, transparent 9px),
-    radial-gradient(circle at 44% 40%, var(--leaf-green-1) 0 9px, transparent 10px),
-    radial-gradient(circle at 52% 47%, var(--leaf-green-2) 0 8px, transparent 9px),
-    radial-gradient(circle at 60% 41%, #d0dd65 0 8px, transparent 9px),
-    radial-gradient(circle at 68% 48%, var(--leaf-green-1) 0 8px, transparent 9px),
-    radial-gradient(circle at 76% 40%, var(--leaf-green-3) 0 8px, transparent 9px),
-    radial-gradient(circle at 84% 47%, var(--leaf-green-2) 0 8px, transparent 9px),
-    radial-gradient(circle at 92% 41%, #b7cb36 0 8px, transparent 9px);
+    radial-gradient(circle at 7% 36%, #d0dd65 0 10px, transparent 11px),
+    radial-gradient(circle at 15% 31%, var(--leaf-green-1) 0 11px, transparent 12px),
+    radial-gradient(circle at 21% 37%, var(--leaf-green-2) 0 10px, transparent 11px),
+    radial-gradient(circle at 35% 28%, #b7cb36 0 11px, transparent 12px),
+    radial-gradient(circle at 42% 35%, var(--leaf-green-3) 0 10px, transparent 11px),
+    radial-gradient(circle at 50% 30%, var(--leaf-green-1) 0 10px, transparent 11px),
+    radial-gradient(circle at 58% 36%, var(--leaf-green-2) 0 9px, transparent 10px),
+    radial-gradient(circle at 65% 29%, #d0dd65 0 10px, transparent 11px),
+    radial-gradient(circle at 73% 33%, var(--leaf-green-1) 0 10px, transparent 11px),
+    radial-gradient(circle at 80% 27%, var(--leaf-green-3) 0 10px, transparent 11px),
+    radial-gradient(circle at 88% 33%, var(--leaf-green-2) 0 10px, transparent 11px),
+    radial-gradient(circle at 95% 28%, #b7cb36 0 10px, transparent 11px);
   background-repeat: no-repeat;
 }
 
@@ -158,53 +172,62 @@ body {
 
 .aspen::before {
   background-image:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 4.2%,
-      rgba(239, 234, 212, 0.94) 4.2% 4.95%,
-      rgba(196, 184, 150, 0.9) 4.95% 5.45%,
-      transparent 5.45% 10.4%
-    ),
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 4.2%,
-      rgba(82, 90, 84, 0.34) 4.35% 4.5%,
-      transparent 4.5% 10.4%
-    );
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9)),
+    linear-gradient(180deg, rgba(239, 234, 212, 0.94), rgba(196, 184, 150, 0.9));
   background-size:
-    100% 66%,
-    100% 60%;
+    10px 70%,
+    9px 62%,
+    10px 66%,
+    9px 58%,
+    10px 64%,
+    9px 56%,
+    10px 61%,
+    9px 54%,
+    10px 59%;
   background-position:
-    0 100%,
-    0 100%;
+    4% 100%,
+    15% 100%,
+    26% 100%,
+    37% 100%,
+    49% 100%,
+    60% 100%,
+    72% 100%,
+    84% 100%,
+    95% 100%;
+  background-repeat: no-repeat;
   opacity: 0.88;
 }
 
 .aspen::after {
   background-image:
-    radial-gradient(circle at 5% 40%, #d7e56b 0 9px, transparent 10px),
-    radial-gradient(circle at 9% 34%, var(--leaf-green-1) 0 11px, transparent 12px),
-    radial-gradient(circle at 13% 41%, var(--leaf-green-2) 0 10px, transparent 11px),
-    radial-gradient(circle at 18% 36%, #bcd038 0 10px, transparent 11px),
-    radial-gradient(circle at 24% 42%, var(--leaf-green-3) 0 9px, transparent 10px),
-    radial-gradient(circle at 29% 35%, var(--leaf-green-1) 0 11px, transparent 12px),
-    radial-gradient(circle at 34% 41%, var(--leaf-green-2) 0 9px, transparent 10px),
-    radial-gradient(circle at 40% 34%, #d7e56b 0 10px, transparent 11px),
-    radial-gradient(circle at 45% 40%, var(--leaf-green-1) 0 10px, transparent 11px),
-    radial-gradient(circle at 51% 35%, var(--leaf-green-3) 0 10px, transparent 11px),
-    radial-gradient(circle at 56% 41%, var(--leaf-green-2) 0 9px, transparent 10px),
-    radial-gradient(circle at 62% 35%, #bcd038 0 11px, transparent 12px),
-    radial-gradient(circle at 68% 41%, var(--leaf-green-1) 0 10px, transparent 11px),
-    radial-gradient(circle at 74% 35%, var(--leaf-green-2) 0 9px, transparent 10px),
-    radial-gradient(circle at 80% 42%, #d7e56b 0 10px, transparent 11px),
-    radial-gradient(circle at 86% 36%, var(--leaf-green-1) 0 11px, transparent 12px),
-    radial-gradient(circle at 91% 42%, var(--leaf-green-3) 0 9px, transparent 10px),
-    radial-gradient(circle at 96% 37%, var(--leaf-green-2) 0 10px, transparent 11px),
-    radial-gradient(circle at 15% 48%, var(--leaf-green-2) 0 7px, transparent 8px),
-    radial-gradient(circle at 33% 49%, var(--leaf-green-3) 0 7px, transparent 8px),
-    radial-gradient(circle at 52% 49%, var(--leaf-green-1) 0 7px, transparent 8px),
-    radial-gradient(circle at 71% 49%, var(--leaf-green-2) 0 7px, transparent 8px),
-    radial-gradient(circle at 89% 49%, var(--leaf-green-3) 0 7px, transparent 8px);
+    radial-gradient(circle at 4% 33%, #d7e56b 0 11px, transparent 12px),
+    radial-gradient(circle at 9% 27%, var(--leaf-green-1) 0 12px, transparent 13px),
+    radial-gradient(circle at 14% 34%, var(--leaf-green-2) 0 11px, transparent 12px),
+    radial-gradient(circle at 20% 29%, #bcd038 0 11px, transparent 12px),
+    radial-gradient(circle at 26% 35%, var(--leaf-green-3) 0 10px, transparent 11px),
+    radial-gradient(circle at 33% 26%, var(--leaf-green-1) 0 12px, transparent 13px),
+    radial-gradient(circle at 39% 33%, var(--leaf-green-2) 0 10px, transparent 11px),
+    radial-gradient(circle at 46% 25%, #d7e56b 0 11px, transparent 12px),
+    radial-gradient(circle at 52% 31%, var(--leaf-green-1) 0 11px, transparent 12px),
+    radial-gradient(circle at 58% 24%, var(--leaf-green-3) 0 11px, transparent 12px),
+    radial-gradient(circle at 64% 31%, var(--leaf-green-2) 0 10px, transparent 11px),
+    radial-gradient(circle at 71% 25%, #bcd038 0 12px, transparent 13px),
+    radial-gradient(circle at 77% 32%, var(--leaf-green-1) 0 11px, transparent 12px),
+    radial-gradient(circle at 83% 25%, var(--leaf-green-2) 0 10px, transparent 11px),
+    radial-gradient(circle at 89% 33%, #d7e56b 0 11px, transparent 12px),
+    radial-gradient(circle at 94% 27%, var(--leaf-green-1) 0 12px, transparent 13px),
+    radial-gradient(circle at 99% 34%, var(--leaf-green-3) 0 10px, transparent 11px),
+    radial-gradient(circle at 17% 41%, var(--leaf-green-2) 0 8px, transparent 9px),
+    radial-gradient(circle at 41% 40%, var(--leaf-green-3) 0 8px, transparent 9px),
+    radial-gradient(circle at 65% 39%, var(--leaf-green-1) 0 8px, transparent 9px),
+    radial-gradient(circle at 87% 40%, var(--leaf-green-2) 0 8px, transparent 9px);
   background-repeat: no-repeat;
   opacity: 0.95;
 }
@@ -245,9 +268,10 @@ body {
 .hero-content {
   position: relative;
   z-index: 6;
-  margin: 0.45rem 1.2rem 1.2rem;
+  margin: 0.3rem 1.2rem 1.2rem auto;
   padding: clamp(1rem, 2vw, 1.8rem);
-  max-width: 720px;
+  max-width: min(46vw, 620px);
+  text-align: right;
   border: none;
   border-radius: 0;
   background: transparent;
@@ -304,6 +328,7 @@ body {
   width: clamp(170px, 30vw, 290px);
   height: auto;
   display: block;
+  margin-left: auto;
   margin-bottom: 1rem;
   filter: none;
 }
@@ -328,7 +353,7 @@ h1 {
 }
 
 .lead {
-  margin: 0;
+  margin: 0 0 0 auto;
   max-width: 52ch;
   color: #dce6da;
   line-height: 1.72;
@@ -339,6 +364,7 @@ h1 {
   margin-top: 1.1rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 0.55rem;
 }
 
