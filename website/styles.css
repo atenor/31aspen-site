@@ -352,10 +352,12 @@ h1 {
 
 .hero-title {
   position: absolute;
-  top: clamp(0.9rem, 2.2vw, 1.6rem);
+  top: clamp(4.8rem, 9.2vw, 7rem);
   right: clamp(1rem, 2.8vw, 2.2rem);
-  width: min(44vw, 560px);
+  width: min(40vw, 520px);
   margin: 0;
+  font-size: clamp(1.65rem, 3.4vw, 3.05rem);
+  line-height: 1.06;
   text-align: right;
   z-index: 7;
 }
@@ -594,6 +596,11 @@ a:focus-visible {
     max-width: 100%;
   }
 
+  .hero-title {
+    top: 5rem;
+    width: min(50vw, 500px);
+  }
+
   .ridge-back {
     top: 36%;
   }
@@ -625,6 +632,13 @@ a:focus-visible {
   .hero-content {
     margin: 0.3rem 0.55rem 0.55rem;
     border-radius: 12px;
+  }
+
+  .hero-title {
+    top: 4.6rem;
+    right: 0.7rem;
+    width: min(82vw, 420px);
+    font-size: clamp(1.35rem, 6.2vw, 2.1rem);
   }
 
   .brand-favicon {
