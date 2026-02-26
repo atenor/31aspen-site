@@ -79,10 +79,10 @@ body {
 
 .aspen {
   position: absolute;
-  bottom: 19%;
-  width: 35%;
-  height: 34%;
-  filter: saturate(1.1);
+  bottom: 18%;
+  width: 36%;
+  height: 38%;
+  filter: saturate(1.08);
 }
 
 .aspen::before,
@@ -90,25 +90,43 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 .aspen::before {
   background-image:
-    radial-gradient(circle at 15px 14px, rgba(244, 221, 132, 0.86) 0 8px, transparent 8.5px),
-    radial-gradient(circle at 42px 30px, rgba(255, 238, 170, 0.7) 0 6px, transparent 6.5px),
-    radial-gradient(circle at 60px 9px, rgba(232, 198, 106, 0.82) 0 7px, transparent 7.5px);
-  background-size: 74px 58px;
-  opacity: 0.96;
+    linear-gradient(180deg, rgba(244, 238, 206, 0.88), rgba(214, 204, 169, 0.84)),
+    linear-gradient(180deg, rgba(244, 238, 206, 0.84), rgba(214, 204, 169, 0.8)),
+    linear-gradient(180deg, rgba(244, 238, 206, 0.84), rgba(214, 204, 169, 0.8)),
+    linear-gradient(180deg, rgba(244, 238, 206, 0.84), rgba(214, 204, 169, 0.8)),
+    repeating-linear-gradient(
+      180deg,
+      rgba(76, 85, 78, 0.42) 0 2px,
+      transparent 2px 11px
+    );
+  background-size:
+    12px 60%,
+    10px 52%,
+    11px 56%,
+    9px 49%,
+    3px 8px;
+  background-position:
+    9% 100%,
+    20% 100%,
+    30% 100%,
+    40% 100%,
+    9% 54%;
+  opacity: 0.9;
 }
 
 .aspen::after {
-  background-image: repeating-linear-gradient(
-    90deg,
-    transparent 0 22px,
-    rgba(211, 221, 189, 0.44) 22px 24px
-  );
-  opacity: 0.4;
+  background-image:
+    radial-gradient(ellipse at 18% 34%, rgba(226, 211, 112, 0.9) 0 26%, transparent 27%),
+    radial-gradient(ellipse at 30% 30%, rgba(241, 224, 132, 0.92) 0 28%, transparent 29%),
+    radial-gradient(ellipse at 42% 38%, rgba(215, 195, 102, 0.86) 0 24%, transparent 25%),
+    radial-gradient(ellipse at 25% 47%, rgba(248, 235, 156, 0.84) 0 19%, transparent 20%),
+    radial-gradient(ellipse at 8% 46%, rgba(218, 197, 96, 0.78) 0 16%, transparent 17%);
+  opacity: 0.93;
 }
 
 .aspen-left {
