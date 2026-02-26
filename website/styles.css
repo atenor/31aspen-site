@@ -162,6 +162,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.18em;
   font-size: 0.75rem;
+  line-height: 1;
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
@@ -169,8 +170,8 @@ body {
 }
 
 .brand-favicon {
-  width: 1.58rem;
-  height: 1.58rem;
+  width: 1.9rem;
+  height: 1.9rem;
   flex: 0 0 auto;
 }
 
@@ -475,8 +476,8 @@ a:focus-visible {
   }
 
   .brand-favicon {
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 1.7rem;
+    height: 1.7rem;
   }
 
   .section-head {
