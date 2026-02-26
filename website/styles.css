@@ -787,66 +787,109 @@ a:focus-visible {
     margin-top: 0.2rem;
   }
 
+  .ridge {
+    filter: saturate(0.96) contrast(1.03);
+  }
+
+  .ridge-back {
+    top: 38%;
+    opacity: 0.84;
+  }
+
+  .ridge-mid {
+    top: 52%;
+  }
+
+  .ridge-front {
+    top: 66%;
+  }
+
   .aspen::before {
-    opacity: 0.82;
+    opacity: 0.78;
   }
 
   .aspen::after {
-    opacity: 0.76;
-  }
-
-  .aspen-back::after {
     opacity: 0.68;
   }
 
-  .back-1 {
-    left: -7%;
-    width: 20%;
-    height: 17%;
-    bottom: 30.5%;
-    opacity: 0.34;
+  .aspen-back::after {
+    opacity: 0.58;
   }
 
-  .back-2,
-  .back-4 {
-    display: none;
+  .back-1 {
+    left: -9%;
+    width: 15%;
+    height: 13%;
+    bottom: 31.8%;
+    opacity: 0.32;
+  }
+
+  .back-2 {
+    left: 14%;
+    width: 13.5%;
+    height: 12.2%;
+    bottom: 33%;
+    opacity: 0.28;
+    transform: scaleX(-1);
   }
 
   .back-3 {
-    left: 66%;
-    width: 22%;
-    height: 18%;
-    bottom: 29.8%;
-    opacity: 0.36;
+    left: 43%;
+    width: 16%;
+    height: 13.4%;
+    bottom: 31.2%;
+    opacity: 0.34;
   }
 
-  .fore-2,
-  .fore-4 {
-    display: none;
+  .back-4 {
+    left: 74%;
+    width: 14%;
+    height: 12.6%;
+    bottom: 32.4%;
+    opacity: 0.3;
+    transform: scaleX(-1);
   }
 
   .fore-1 {
     left: -8%;
-    width: 23%;
-    height: 35%;
-    bottom: 15.5%;
-    opacity: 0.74;
+    width: 19%;
+    height: 31%;
+    bottom: 15.8%;
+    opacity: 0.72;
+  }
+
+  .fore-2 {
+    left: 12%;
+    width: 16.5%;
+    height: 28.5%;
+    bottom: 16.6%;
+    opacity: 0.68;
+    transform: scaleX(-1);
   }
 
   .fore-3 {
-    left: 31%;
-    width: 27%;
-    height: 38%;
-    bottom: 14.2%;
-    opacity: 0.8;
+    left: 34%;
+    width: 19%;
+    height: 32%;
+    bottom: 15.2%;
+    opacity: 0.75;
+  }
+
+  .fore-4 {
+    left: 58%;
+    width: 17.2%;
+    height: 29.5%;
+    bottom: 16.1%;
+    opacity: 0.7;
+    transform: scaleX(-1);
   }
 
   .fore-5 {
-    left: 73%;
-    width: 24%;
-    height: 36%;
-    bottom: 15%;
-    opacity: 0.76;
+    left: 80%;
+    width: 18.4%;
+    height: 30.5%;
+    bottom: 15.4%;
+    opacity: 0.73;
   }
 
   .brand-favicon {
