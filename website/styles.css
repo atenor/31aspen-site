@@ -79,9 +79,9 @@ body {
 
 .aspen {
   position: absolute;
-  bottom: 18%;
-  width: 36%;
-  height: 38%;
+  bottom: 17%;
+  width: 42%;
+  height: 42%;
   filter: saturate(1.08);
 }
 
@@ -105,36 +105,46 @@ body {
       transparent 2px 11px
     );
   background-size:
-    12px 60%,
-    10px 52%,
-    11px 56%,
-    9px 49%,
+    12px 62%,
+    10px 56%,
+    11px 58%,
+    9px 53%,
     3px 8px;
   background-position:
-    9% 100%,
-    20% 100%,
-    30% 100%,
-    40% 100%,
-    9% 54%;
+    7% 100%,
+    16% 100%,
+    24% 100%,
+    32% 100%,
+    7% 52%;
   opacity: 0.9;
 }
 
 .aspen::after {
   background-image:
-    radial-gradient(ellipse at 18% 34%, rgba(226, 211, 112, 0.9) 0 26%, transparent 27%),
-    radial-gradient(ellipse at 30% 30%, rgba(241, 224, 132, 0.92) 0 28%, transparent 29%),
-    radial-gradient(ellipse at 42% 38%, rgba(215, 195, 102, 0.86) 0 24%, transparent 25%),
-    radial-gradient(ellipse at 25% 47%, rgba(248, 235, 156, 0.84) 0 19%, transparent 20%),
-    radial-gradient(ellipse at 8% 46%, rgba(218, 197, 96, 0.78) 0 16%, transparent 17%);
-  opacity: 0.93;
+    radial-gradient(ellipse at 15% 33%, rgba(226, 211, 112, 0.9) 0 24%, transparent 25%),
+    radial-gradient(ellipse at 27% 30%, rgba(241, 224, 132, 0.92) 0 26%, transparent 27%),
+    radial-gradient(ellipse at 39% 36%, rgba(215, 195, 102, 0.86) 0 23%, transparent 24%),
+    radial-gradient(ellipse at 22% 46%, rgba(248, 235, 156, 0.84) 0 18%, transparent 19%),
+    radial-gradient(ellipse at 6% 45%, rgba(218, 197, 96, 0.78) 0 15%, transparent 16%),
+    radial-gradient(ellipse at 48% 34%, rgba(232, 216, 121, 0.84) 0 18%, transparent 19%),
+    radial-gradient(ellipse at 34% 48%, rgba(205, 188, 95, 0.76) 0 16%, transparent 17%);
+  opacity: 0.95;
 }
 
 .aspen-left {
-  left: -2%;
+  left: -5%;
+}
+
+.aspen-center {
+  left: 30%;
+  width: 38%;
+  height: 37%;
+  bottom: 18.5%;
+  opacity: 0.72;
 }
 
 .aspen-right {
-  right: -2%;
+  right: -5%;
   transform: scaleX(-1);
 }
 
@@ -159,10 +169,10 @@ body {
   margin: 1.2rem;
   padding: clamp(1rem, 2vw, 1.8rem);
   max-width: 720px;
-  border: 1px solid rgba(247, 251, 244, 0.24);
-  border-radius: 18px;
-  background: linear-gradient(165deg, rgba(18, 33, 56, 0.7), rgba(31, 49, 44, 0.52));
-  backdrop-filter: blur(4px);
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  backdrop-filter: none;
   animation: reveal 0.85s ease-out both;
 }
 
