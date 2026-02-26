@@ -170,8 +170,8 @@ body {
 }
 
 .brand-favicon {
-  width: 1.9rem;
-  height: 1.9rem;
+  width: 2.25rem;
+  height: 2.25rem;
   flex: 0 0 auto;
 }
 
@@ -476,8 +476,8 @@ a:focus-visible {
   }
 
   .brand-favicon {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   .section-head {
