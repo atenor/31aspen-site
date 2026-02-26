@@ -350,6 +350,16 @@ h1 {
   text-wrap: balance;
 }
 
+.hero-title {
+  position: absolute;
+  top: clamp(0.9rem, 2.2vw, 1.6rem);
+  right: clamp(1rem, 2.8vw, 2.2rem);
+  width: min(44vw, 560px);
+  margin: 0;
+  text-align: right;
+  z-index: 7;
+}
+
 .lead {
   margin: 0;
   max-width: 52ch;
