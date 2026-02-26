@@ -104,7 +104,7 @@ body {
   bottom: var(--b, 16%);
   width: var(--w, 5%);
   height: var(--h, 20%);
-  transform: translateX(-50%) scale(var(--s, 1));
+  transform: translateX(-50%) scale(var(--s, 1)) rotate(var(--r, 0deg));
   transform-origin: 50% 100%;
   opacity: var(--o, 0.9);
 }
@@ -594,11 +594,11 @@ a:focus-visible {
   }
 
   .tree-layer-back .aspen-tree {
-    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.88));
+    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.88)) rotate(var(--r, 0deg));
   }
 
   .tree-layer-front .aspen-tree {
-    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.9));
+    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.9)) rotate(var(--r, 0deg));
   }
 
   .ridge-back {
@@ -652,11 +652,11 @@ a:focus-visible {
   }
 
   .tree-layer-back .aspen-tree {
-    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.72));
+    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.72)) rotate(var(--r, 0deg));
   }
 
   .tree-layer-front .aspen-tree {
-    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.8));
+    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.8)) rotate(var(--r, 0deg));
   }
 
   .brand-favicon {
@@ -698,6 +698,6 @@ a:focus-visible {
   }
 
   .tree-layer-front .aspen-tree {
-    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.72));
+    transform: translateX(-50%) scale(calc(var(--s, 1) * 0.72)) rotate(var(--r, 0deg));
   }
 }
