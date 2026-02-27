@@ -1,165 +1,296 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>31 Aspen Holdings</title>
-    <meta
-      name="description"
-      content="31 Aspen Holdings curates a portfolio of innovative and groundbreaking businesses across creative, technical, and service-driven fields."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="/assets/favicon-31aspen.svg?v=3" sizes="any" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon-31aspen.svg?v=3" />
-    <link rel="shortcut icon" href="/assets/favicon-31aspen.svg?v=3" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="site-shell">
-      <section class="hero" aria-label="Maroon Bells inspired mountain vista">
-        <div class="hero-image" aria-hidden="true">
-          <div class="aspen-back back-1"></div>
-          <div class="aspen-back back-2"></div>
-          <div class="aspen-back back-3"></div>
-          <div class="aspen-back back-4"></div>
-          <div class="ridge ridge-back"></div>
-          <div class="ridge ridge-mid"></div>
-          <div class="ridge ridge-front"></div>
-          <div class="aspen fore-1"></div>
-          <div class="aspen fore-2"></div>
-          <div class="aspen fore-3"></div>
-          <div class="aspen fore-4"></div>
-          <div class="aspen fore-5"></div>
-          <div class="waterline"></div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>31 Aspen Holdings</title>
+  <meta name="description" content="31 Aspen Holdings curates a portfolio of innovative and groundbreaking businesses across creative, technical, and service-driven fields.">
+  <link rel="icon" href="assets/favicon-31aspen.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-        <header class="hero-content">
-          <nav class="topbar" aria-label="Main">
-            <span class="brand-mini">
-              <img
-                class="brand-favicon"
-                src="assets/favicon-31aspen.svg"
-                alt=""
-                width="32"
-                height="32"
-                aria-hidden="true"
-              />
-              31 Aspen Holdings
-            </span>
-            <a class="top-link" href="#portfolio-title">Portfolio</a>
-          </nav>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">31 Aspen</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
 
-          <img
-            class="logo"
-            src="assets/logo.png?v=2"
-            alt="31 Aspen Holdings logo"
-            width="300"
-            height="110"
-          />
-        </header>
-        <h1 class="hero-title">A portfolio shaped by bold ideas and mountain-grade resilience.</h1>
-      </section>
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
 
-      <section class="panel hero-support" aria-label="31 Aspen overview">
-        <p class="lead">
-          31 Aspen Holdings curates innovative and groundbreaking businesses
-          across creative, technical, and service-driven fields.
-        </p>
-        <div class="hero-chips">
-          <span>6 Portfolio Companies</span>
-          <span>3 Core Verticals</span>
-          <span>Long-Term Builder</span>
-        </div>
-      </section>
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <!-- Mountain landscape background -->
+    <div class="hero-bg" aria-hidden="true">
+      <div class="sky"></div>
+      <svg class="mountains" viewBox="0 0 1440 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Snow-capped distant peaks -->
+        <path d="M-20,600 L-20,340 L120,200 L200,260 L320,140 L400,220 L500,100 L580,180 L680,60 L780,160 L860,80 L960,180 L1060,120 L1140,200 L1220,140 L1320,240 L1460,180 L1460,600Z" fill="#5a7a6a" opacity="0.35"/>
+        <!-- Snow highlights on peaks -->
+        <path d="M310,155 L320,140 L330,148Z" fill="#d4ddd8" opacity="0.25"/>
+        <path d="M490,115 L500,100 L510,110Z" fill="#d4ddd8" opacity="0.25"/>
+        <path d="M670,75 L680,60 L690,70Z" fill="#d4ddd8" opacity="0.25"/>
+        <path d="M850,95 L860,80 L870,90Z" fill="#d4ddd8" opacity="0.25"/>
+        <!-- Mid-range ridges -->
+        <path d="M-20,600 L-20,400 L100,320 L220,370 L340,280 L460,350 L560,260 L680,330 L800,250 L900,320 L1020,270 L1120,340 L1240,290 L1340,360 L1460,300 L1460,600Z" fill="#3d5c4a" opacity="0.45"/>
+        <!-- Foothills -->
+        <path d="M-20,600 L-20,460 L120,400 L260,440 L400,380 L520,430 L660,370 L800,420 L940,380 L1060,430 L1200,390 L1340,440 L1460,400 L1460,600Z" fill="#2a4435" opacity="0.55"/>
+        <!-- Tree line suggestion -->
+        <path d="M-20,600 L-20,500 L80,480 L160,490 L240,475 L340,485 L420,470 L520,482 L620,468 L720,478 L820,465 L920,476 L1020,462 L1120,474 L1220,460 L1320,472 L1460,458 L1460,600Z" fill="#1e3628" opacity="0.6"/>
+      </svg>
+      <!-- Subtle mist layer -->
+      <div class="mist"></div>
+    </div>
 
-      <section class="panel about" aria-labelledby="about-title">
-        <div class="section-head">
-          <h2 id="about-title">About 31aspen</h2>
-        </div>
-        <div class="about-copy">
-          <p>
-            31aspen Holdings is a privately held company focused on curating
-            and investing in a disciplined portfolio of innovative and
-            groundbreaking businesses across creative, technical, and
-            service-driven fields. The firm maintains a long-view perspective,
-            emphasizing thoughtful growth, independent leadership, and
-            strategic alignment across its companies.
-          </p>
-          <p>
-            Each business within the portfolio operates with autonomy while
-            benefiting from shared perspective and structural support. 31aspen
-            prioritizes durability, direction, and responsible stewardship over
-            short-term outcomes.
-          </p>
-        </div>
-      </section>
+    <div class="hero-content">
+      <img class="hero-logo" src="assets/logo.png" alt="31 Aspen Holdings" width="300" height="110">
+      <div class="hero-rule"></div>
+      <p class="hero-subtitle">Holding Company</p>
+      <p class="hero-tagline">Rooted in the Rockies. Built to endure.</p>
+    </div>
 
-      <section class="panel portfolio" aria-labelledby="portfolio-title">
-        <div class="section-head">
-          <h2 id="portfolio-title">Portfolio Companies</h2>
-          <p class="section-note">Creative, Technical, Service</p>
-        </div>
-        <ul class="company-grid">
-          <li class="company-card"><h3>Repertoire Pro</h3></li>
-          <li class="company-card"><h3>AdjudicArts</h3></li>
-          <li class="company-card"><h3>Elite Vocal Arts</h3></li>
-          <li class="company-card"><h3>USAmusic.biz</h3></li>
-          <li class="company-card"><h3>Set &amp; Forget</h3></li>
-          <li class="company-card"><h3>Lazy Schedule</h3></li>
-        </ul>
-      </section>
+    <div class="scroll-cue" aria-hidden="true">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
 
-      <section class="panel contact" aria-labelledby="contact-title">
-        <div class="section-head">
-          <h2 id="contact-title">Contact Us</h2>
-          <p class="section-note">31 Aspen Holdings</p>
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-grid">
+        <div class="section-label">
+          <span class="label-text">About</span>
+          <div class="label-line"></div>
         </div>
-        <div class="contact-intro">
-          <h3>Partnership &amp; Investment Inquiries</h3>
-          <p>
+        <div class="section-content">
+          <h2 class="section-heading">A foundation for<br>lasting growth</h2>
+          <div class="about-body">
+            <p>
+              31 Aspen Holdings is a privately held company focused on curating
+              and investing in a disciplined portfolio of innovative and
+              groundbreaking businesses across creative, technical, and
+              service-driven fields.
+            </p>
+            <p>
+              Each business within the portfolio operates with autonomy while
+              benefiting from shared perspective and structural support. Like the
+              aspen groves that blanket the Rocky Mountain landscape, our strength
+              lies in deep roots and interconnected growth.
+            </p>
+            <p>
+              We maintain a long-view perspective, emphasizing thoughtful growth,
+              independent leadership, and strategic alignment across our companies.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Portfolio Companies</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Core Verticals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leaf Divider -->
+  <div class="leaf-divider" aria-hidden="true">
+    <svg viewBox="0 0 60 80" width="32" height="44" xmlns="http://www.w3.org/2000/svg">
+      <path d="M30,2 Q50,20 48,45 Q44,62 30,78 Q16,62 12,45 Q10,20 30,2Z" fill="none" stroke="#b8a88a" stroke-width="1.2" opacity="0.5"/>
+      <line x1="30" y1="8" x2="30" y2="72" stroke="#b8a88a" stroke-width="0.6" opacity="0.35"/>
+    </svg>
+  </div>
+
+  <!-- Portfolio -->
+  <section class="section section-dark" id="portfolio">
+    <div class="container">
+      <div class="section-grid">
+        <div class="section-label">
+          <span class="label-text">Portfolio</span>
+          <div class="label-line"></div>
+        </div>
+        <div class="section-content">
+          <h2 class="section-heading">Our Companies</h2>
+          <p class="section-intro">Creative, technical, and service-driven businesses operating with autonomy and shared purpose.</p>
+          <div class="portfolio-grid">
+            <a href="#" class="portfolio-card">
+              <div class="card-icon">
+                <img src="assets/portfolio-logos/repertoire-pro_v1-minimal.svg" alt="" loading="lazy">
+              </div>
+              <h3 class="card-name">Repertoire Pro</h3>
+              <p class="card-desc">Creative Workflow Platform</p>
+            </a>
+            <a href="#" class="portfolio-card">
+              <div class="card-icon">
+                <img src="assets/portfolio-logos/adjudicarts_v1-minimal.svg" alt="" loading="lazy">
+              </div>
+              <h3 class="card-name">AdjudicArts</h3>
+              <p class="card-desc">Arts Adjudication Technology</p>
+            </a>
+            <a href="#" class="portfolio-card">
+              <div class="card-icon">
+                <img src="assets/portfolio-logos/elite-vocal-arts_v1-minimal.svg" alt="" loading="lazy">
+              </div>
+              <h3 class="card-name">Elite Vocal Arts</h3>
+              <p class="card-desc">Vocal Education & Performance</p>
+            </a>
+            <a href="#" class="portfolio-card">
+              <div class="card-icon">
+                <img src="assets/portfolio-logos/usamusic-biz_v1-minimal.svg" alt="" loading="lazy">
+              </div>
+              <h3 class="card-name">USAmusic.biz</h3>
+              <p class="card-desc">Music Industry Services</p>
+            </a>
+            <a href="#" class="portfolio-card">
+              <div class="card-icon">
+                <img src="assets/portfolio-logos/set-and-forget_v1-minimal.svg" alt="" loading="lazy">
+              </div>
+              <h3 class="card-name">Set & Forget</h3>
+              <p class="card-desc">Automated Business Tools</p>
+            </a>
+            <a href="#" class="portfolio-card">
+              <div class="card-icon">
+                <img src="assets/portfolio-logos/lazy-schedule_v1-minimal.svg" alt="" loading="lazy">
+              </div>
+              <h3 class="card-name">Lazy Schedule</h3>
+              <p class="card-desc">Smart Scheduling Platform</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-grid">
+        <div class="section-label">
+          <span class="label-text">Contact</span>
+          <div class="label-line"></div>
+        </div>
+        <div class="section-content">
+          <h2 class="section-heading">Get in touch</h2>
+          <p class="section-intro">
             We selectively consider opportunities aligned with our focus across
             creative, technical, and service-driven sectors. Qualified founders
-            and operators may contact us with a brief overview of their
-            business.
+            and operators may reach out with a brief overview of their business.
           </p>
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/emailandytoday@gmail.com"
+            method="post"
+          >
+            <input type="hidden" name="_subject" value="New 31 Aspen Contact Form Submission">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hp-field">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" autocomplete="organization">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
         </div>
-        <form
-          class="contact-form"
-          action="https://formsubmit.co/emailandytoday@gmail.com"
-          method="post"
-        >
-          <input type="hidden" name="_subject" value="New 31 Aspen Contact Form Submission" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hp-field" />
-          <input type="hidden" name="_template" value="table" />
+      </div>
+    </div>
+  </section>
 
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" autocomplete="name" required />
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-ridge" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,80 L0,50 Q180,10 360,35 Q540,0 720,30 Q900,5 1080,28 Q1260,8 1440,40 L1440,80Z" fill="#1a1f1c"/>
+      </svg>
+    </div>
+    <div class="footer-content">
+      <div class="container">
+        <div class="footer-inner">
+          <span class="footer-brand">31 Aspen Holdings</span>
+          <span class="footer-loc">Colorado</span>
+          <span class="footer-copy">&copy; <span id="year"></span> All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" autocomplete="email" required />
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-          <label for="company">Company</label>
-          <input id="company" name="company" type="text" autocomplete="organization" />
+    // Nav scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    });
 
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+    // Mobile menu
+    const toggle = document.getElementById('navToggle');
+    const menu = document.getElementById('mobileMenu');
+    toggle.addEventListener('click', () => {
+      toggle.classList.toggle('active');
+      menu.classList.toggle('open');
+    });
+    menu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        toggle.classList.remove('active');
+        menu.classList.remove('open');
+      });
+    });
 
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
+    // Scroll reveal
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.section-heading, .about-body, .stats, .portfolio-card, .section-intro, .contact-form').forEach(el => {
+      el.classList.add('reveal');
+      obs.observe(el);
+    });
 
-      <footer class="footer">
-        <p>© <span id="year"></span> 31 Aspen Holdings. All rights reserved.</p>
-      </footer>
-    </main>
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </body>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+</body>
 </html>
