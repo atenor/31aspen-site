@@ -116,18 +116,35 @@ h1, h2, h3 {
 .nav-logo {
   display: inline-flex;
   align-items: center;
+  gap: 0.55rem;
   line-height: 1;
+  color: var(--cream);
   transition: opacity 0.3s;
 }
 
-.nav-logo-mark {
-  height: 34px;
-  width: auto;
+.nav-logo-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
   display: block;
 }
 
-.nav.scrolled .nav-logo-mark {
-  height: 30px;
+.nav-logo-wordmark {
+  font-family: 'The Seasons', serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cream);
+}
+
+.nav.scrolled .nav-logo-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.nav.scrolled .nav-logo-wordmark {
+  font-size: 1.08rem;
 }
 
 .nav-logo:hover { opacity: 0.75; }
@@ -656,7 +673,8 @@ h1, h2, h3 {
   .nav-links { display: none; }
   .nav-toggle { display: flex; }
   .mobile-menu { display: flex; }
-  .nav-logo-mark { height: 28px; }
+  .nav-logo-icon { width: 16px; height: 16px; }
+  .nav-logo-wordmark { font-size: 1.02rem; }
 
   .section-grid {
     grid-template-columns: 1fr;
@@ -678,7 +696,8 @@ h1, h2, h3 {
 
 @media (max-width: 480px) {
   .hero-logo { max-width: 180px; }
-  .nav-logo-mark { height: 24px; }
+  .nav-logo-icon { width: 14px; height: 14px; }
+  .nav-logo-wordmark { font-size: 0.9rem; letter-spacing: 0.1em; }
   .stats { flex-direction: column; gap: 1.5rem; }
 }
 
