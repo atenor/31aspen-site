@@ -114,13 +114,20 @@ h1, h2, h3 {
 }
 
 .nav-logo {
-  font-family: 'The Seasons', serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--cream);
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
   transition: opacity 0.3s;
+}
+
+.nav-logo-mark {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
+.nav.scrolled .nav-logo-mark {
+  height: 30px;
 }
 
 .nav-logo:hover { opacity: 0.75; }
@@ -650,6 +657,7 @@ h1, h2, h3 {
   .nav-links { display: none; }
   .nav-toggle { display: flex; }
   .mobile-menu { display: flex; }
+  .nav-logo-mark { height: 28px; }
 
   .section-grid {
     grid-template-columns: 1fr;
@@ -671,6 +679,7 @@ h1, h2, h3 {
 
 @media (max-width: 480px) {
   .hero-logo { max-width: 180px; }
+  .nav-logo-mark { height: 24px; }
   .stats { flex-direction: column; gap: 1.5rem; }
 }
 
