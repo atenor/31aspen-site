@@ -121,14 +121,14 @@ h1, h2, h3 {
 }
 
 .nav-logo-horizontal {
-  height: 32px;
+  height: 74px;
   width: auto;
   display: block;
   object-fit: contain;
 }
 
 .nav.scrolled .nav-logo-horizontal {
-  height: 28px;
+  height: 64px;
 }
 
 .nav-logo:hover { opacity: 0.75; }
@@ -657,7 +657,7 @@ h1, h2, h3 {
   .nav-links { display: none; }
   .nav-toggle { display: flex; }
   .mobile-menu { display: flex; }
-  .nav-logo-horizontal { height: 24px; }
+  .nav-logo-horizontal { height: 44px; }
 
   .section-grid {
     grid-template-columns: 1fr;
@@ -679,7 +679,7 @@ h1, h2, h3 {
 
 @media (max-width: 480px) {
   .hero-logo { max-width: 180px; }
-  .nav-logo-horizontal { height: 20px; }
+  .nav-logo-horizontal { height: 36px; }
   .stats { flex-direction: column; gap: 1.5rem; }
 }
 
