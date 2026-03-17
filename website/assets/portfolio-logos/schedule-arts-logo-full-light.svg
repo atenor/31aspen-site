@@ -1,0 +1,32 @@
+<svg width="680" height="420" viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Schedule Arts - Full Logo - Light Background -->
+  <!-- Calendar centered at x=340 -->
+  <rect x="265" y="30" width="150" height="140" rx="12" fill="none" stroke="#2C2C2A" stroke-width="3"/>
+  <rect x="265" y="30" width="150" height="34" rx="12" fill="#EF4444"/>
+  <rect x="265" y="52" width="150" height="12" fill="#EF4444"/>
+  <rect x="310" y="18" width="10" height="24" rx="5" fill="#2C2C2A"/>
+  <rect x="363" y="18" width="10" height="24" rx="5" fill="#2C2C2A"/>
+  <!-- Dots -->
+  <circle cx="305" cy="94" r="5" fill="#EF4444"/>
+  <circle cx="340" cy="94" r="5" fill="#2C2C2A" opacity=".3"/>
+  <circle cx="375" cy="94" r="5" fill="#EF4444"/>
+  <circle cx="305" cy="124" r="5" fill="#2C2C2A" opacity=".3"/>
+  <circle cx="340" cy="124" r="5" fill="#EF4444"/>
+  <circle cx="375" cy="124" r="5" fill="#2C2C2A" opacity=".3"/>
+  <circle cx="305" cy="154" r="5" fill="#2C2C2A" opacity=".3"/>
+  <circle cx="340" cy="154" r="5" fill="#2C2C2A" opacity=".3"/>
+  <circle cx="375" cy="154" r="5" fill="#2C2C2A" opacity=".3"/>
+  <!-- Pencil -->
+  <g transform="translate(373, 90) rotate(40)">
+    <rect x="0" y="-8" width="105" height="16" rx="2" fill="#EF4444"/>
+    <polygon points="-22,0 0,-8 0,8" fill="#9A6B12"/>
+    <polygon points="-22,0 -10,-5 -10,5" fill="#1a1a1a"/>
+    <rect x="105" y="-8" width="5" height="16" fill="#B91C1C"/>
+    <rect x="110" y="-7" width="16" height="14" rx="4" fill="#0EA5E9"/>
+  </g>
+  <!-- Text -->
+  <text x="340" y="254" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="300" font-size="44" letter-spacing="4" fill="#2C2C2A">SCHEDULE</text>
+  <text x="340" y="308" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="44" letter-spacing="8" fill="#EF4444">ARTS</text>
+  <line x1="230" y1="328" x2="450" y2="328" stroke="#EF4444" stroke-width="1.5" opacity=".4"/>
+  <text x="340" y="354" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="400" font-size="11" letter-spacing="3" fill="#5F5E5A">CREATE · PLAN · INSPIRE</text>
+</svg>

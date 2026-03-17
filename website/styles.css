@@ -483,6 +483,12 @@ h1, h2, h3 {
   opacity: 0.8;
 }
 
+.card-icon img.schedule-arts-logo {
+  filter: none;
+  opacity: 1;
+  height: 34px;
+}
+
 .card-name {
   font-size: 1.15rem;
   font-weight: 400;
