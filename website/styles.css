@@ -127,8 +127,16 @@ h1, h2, h3 {
   object-fit: contain;
 }
 
+.nav-leaf-mark {
+  height: 46px;
+}
+
 .nav.scrolled .nav-logo-horizontal {
   height: 64px;
+}
+
+.nav.scrolled .nav-leaf-mark {
+  height: 38px;
 }
 
 .nav-logo:hover { opacity: 0.75; }
@@ -303,12 +311,14 @@ h1, h2, h3 {
 }
 
 .hero-tagline {
-  font-family: 'The Seasons', serif;
-  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(1rem, 1.85vw, 1.12rem);
   font-weight: 300;
-  font-style: italic;
-  color: rgba(246, 244, 240, 0.6);
-  letter-spacing: 0.04em;
+  color: rgba(246, 244, 240, 0.68);
+  letter-spacing: 0.01em;
+  line-height: 1.85;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 @keyframes heroIn {
@@ -440,10 +450,22 @@ h1, h2, h3 {
 /* --- Leaf Divider --- */
 .leaf-divider {
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 0.15rem 0;
 }
 
 /* --- Portfolio --- */
+#portfolio.section {
+  padding-top: clamp(3.5rem, 7vw, 5rem);
+}
+
+#portfolio .section-heading {
+  margin-bottom: 1rem;
+}
+
+#portfolio .section-intro {
+  margin-bottom: 2rem;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -452,8 +474,8 @@ h1, h2, h3 {
 
 .portfolio-card {
   display: block;
-  background: rgba(246, 244, 240, 0.04);
-  border: 1px solid rgba(246, 244, 240, 0.06);
+  background: var(--cream);
+  border: 1px solid var(--cream-dark);
   border-radius: 12px;
   padding: 2rem;
   transition: all 0.4s var(--ease);
@@ -461,44 +483,50 @@ h1, h2, h3 {
 }
 
 .portfolio-card:hover {
-  background: rgba(246, 244, 240, 0.08);
-  border-color: rgba(184, 168, 138, 0.15);
+  background: var(--white);
+  border-color: rgba(212, 197, 169, 0.62);
   transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.16);
 }
 
 .card-icon {
   width: 100%;
-  max-width: 200px;
-  height: 52px;
-  margin-bottom: 1rem;
+  max-width: 270px;
+  height: 108px;
+  margin-bottom: 1.15rem;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   overflow: hidden;
+  padding: 0.95rem 1.05rem;
+  border-radius: 10px;
+  background: var(--white);
+  border: 1px solid var(--cream-dark);
 }
 
 .card-icon img {
-  height: 42px;
+  height: 74px;
   width: auto;
-  filter: brightness(0) invert(1);
-  opacity: 0.8;
+  filter: none;
+  opacity: 1;
 }
 
 .card-icon img.schedule-arts-logo {
   filter: none;
   opacity: 1;
-  height: 34px;
+  height: 82px;
 }
 
 .card-name {
   font-size: 1.15rem;
   font-weight: 400;
-  color: var(--cream);
+  color: #1f2a24;
   margin-bottom: 0.35rem;
 }
 
 .card-desc {
   font-size: 0.82rem;
-  color: rgba(246, 244, 240, 0.4);
+  color: rgba(31, 42, 36, 0.68);
   letter-spacing: 0.02em;
 }
 
@@ -664,6 +692,7 @@ h1, h2, h3 {
   .nav-toggle { display: flex; }
   .mobile-menu { display: flex; }
   .nav-logo-horizontal { height: 44px; }
+  .nav-leaf-mark { height: 30px; }
 
   .section-grid {
     grid-template-columns: 1fr;
@@ -671,9 +700,16 @@ h1, h2, h3 {
   }
 
   .section-label { position: static; }
+  #portfolio .section-label,
+  #focus .section-label { display: none; }
   .label-line { display: none; }
 
   .hero-logo { max-width: 220px; }
+  .hero-tagline {
+    font-size: 0.96rem;
+    letter-spacing: 0.02em;
+    line-height: 1.8;
+  }
 
   .form-row { grid-template-columns: 1fr; }
 
@@ -686,6 +722,7 @@ h1, h2, h3 {
 @media (max-width: 480px) {
   .hero-logo { max-width: 180px; }
   .nav-logo-horizontal { height: 36px; }
+  .nav-leaf-mark { height: 24px; }
   .stats { flex-direction: column; gap: 1.5rem; }
 }
 
