@@ -143,6 +143,7 @@ h1, h2, h3 {
 
 .nav-links {
   display: flex;
+  align-items: center;
   gap: 2.5rem;
 }
 
@@ -169,6 +170,31 @@ h1, h2, h3 {
 
 .nav-links a:hover { color: var(--cream); }
 .nav-links a:hover::after { width: 100%; }
+
+.nav-divider {
+  width: 1px;
+  height: 18px;
+  background: rgba(246, 244, 240, 0.22);
+}
+
+.nav-links .nav-login-link {
+  color: rgba(246, 244, 240, 0.82);
+}
+
+.nav-links .nav-login-team {
+  border: 1px solid rgba(246, 244, 240, 0.3);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+}
+
+.nav-links .nav-login-team::after {
+  display: none;
+}
+
+.nav-links .nav-login-team:hover {
+  border-color: rgba(246, 244, 240, 0.62);
+  background: rgba(246, 244, 240, 0.08);
+}
 
 .nav-toggle {
   display: none;
