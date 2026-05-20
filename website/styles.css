@@ -301,23 +301,24 @@ h1, h2, h3 {
 }
 
 .hero-subtitle {
-  font-family: 'Inter', sans-serif;
-  font-size: clamp(0.92rem, 1.2vw, 1.08rem);
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: rgba(246, 244, 240, 0.78);
-  margin-bottom: 1.25rem;
+  font-family: 'The Seasons', serif;
+  font-size: clamp(1.5rem, 4vw, 3.4rem);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: rgba(246, 244, 240, 0.96);
+  line-height: 1.02;
+  margin-bottom: 1rem;
 }
 
 .hero-tagline {
   font-family: 'Inter', sans-serif;
-  font-size: clamp(1rem, 1.85vw, 1.12rem);
+  font-size: clamp(1.12rem, 2vw, 1.36rem);
   font-weight: 300;
-  color: rgba(246, 244, 240, 0.68);
-  letter-spacing: 0.01em;
-  line-height: 1.85;
-  max-width: 720px;
+  color: rgba(246, 244, 240, 0.82);
+  letter-spacing: 0;
+  line-height: 1.7;
+  max-width: 760px;
   margin: 0 auto;
 }
 
